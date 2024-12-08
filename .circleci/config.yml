@@ -4,7 +4,7 @@ jobs:
     environment:
       NODE_ENV: development
     docker:
-      - image: 'circleci/node:10'
+      - image: 'circleci/node:16'
     working_directory: ~/repo
     steps:
       - checkout
